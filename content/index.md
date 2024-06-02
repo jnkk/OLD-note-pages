@@ -18,3 +18,5 @@ Customizing the "front page" to display foldered files
 See the [documentation](https://quartz.jzhao.xyz) for how to get started
 
 Or see the note-pages directory
+
+Test lazygit
