@@ -1,9 +1,8 @@
 ---
-title: Personal notes
----
-Hello Testing
 
-Hello world
+title: Personal notes
+tags: tips
+---
 
 ## Start the server
 npm quartz build --serve
@@ -12,9 +11,10 @@ npm quartz build --serve
 npm quartz sync
 
 
+### TODO
+Customizing the "front page" to display foldered files
 
-## TODO
-customizing the "front page" to display foldered files
+#### This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started
 
-### This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Or see the note-pages directory
