@@ -8,7 +8,7 @@ tags: tips
 npm quartz build --serve
 
 ## Resync with github pages
-npm quartz sync
+npx quartz sync --no-pull
 
 
 ### TODO
