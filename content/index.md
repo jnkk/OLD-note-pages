@@ -1,8 +1,9 @@
 ---
-
-title: Personal notes
-tags: tips
+title: Index for Personal Notes
+tags: index
 ---
+
+
 
 ## Start the server
 npm quartz build --serve
@@ -18,5 +19,3 @@ Customizing the "front page" to display foldered files
 See the [documentation](https://quartz.jzhao.xyz) for how to get started
 
 Or see the note-pages directory
-
-Test lazygit
