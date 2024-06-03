@@ -3,10 +3,10 @@ title: Index for Personal Notes
 tags: index
 ---
 
-
+[[Learning]]
 
 ## Start the server
-npm quartz build --serve
+npx quartz build --serve
 
 ## Resync with github pages
 npx quartz sync --no-pull
