@@ -6,11 +6,15 @@ tags: index
 [[Learning]]
 
 ## Start the server
+```bash
 npx quartz build --serve
+```
 
 ## Resync with github pages
-npx quartz sync --no-pull
 
+```bash
+npx quartz sync --no-pull
+```
 
 ### TODO
 Customizing the "front page" to display foldered files

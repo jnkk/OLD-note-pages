@@ -3,6 +3,7 @@ title: PC Hardware
 tags: pc, nas
 ---
 
+
 # Youtube channel for building
 [PC Builder's Channel](https://www.youtube.com/@PCBuilderChannel)
 
@@ -50,6 +51,19 @@ tags: pc, nas
 ### Around 1500
 
 ### Personal PCPartpicker list
+Been stuck with 4 cores, need faster and more cores.
+
+#### Deskmeet/Deskmini Series 
+#### **ASRock DeskMINI X300**
+Is the cheaper option.  
+5700G + DDR4 RAM 16GB is default, more is better + NVME 1TB is more than enough. The Deskmeet X300 version has a dedicated GPU slot and bigger than the Deskmini
+#### **ASRock DeskMEET X600**
+This is more expensive than the X300 and newer generation of CPU architecture.  
+Uses DDR5 Memory which is faster.
+
+#### **ASRock Deskmeet B660**
+This is the Intel version. The T variant is really low powered CPU. Better for NAS or Proxmox usage.  
+[Wendel's Video](https://www.youtube.com/watch?v=kL9k7LHMwYc) for guidance. 
 
 #### Winning the lotto
 
@@ -63,8 +77,20 @@ tags: pc, nas
 |RAM|196GB DDR5-5600 CL46|500|
 |Storage|4TB nvme|310|
 |GPU Option 1|XFX 7900 XTX 24GB|915|
-|GPU Option 1|4090 24GB|1500|
+|GPU Option 2|4090 24GB|1500|
 |Case|Fractal Design XL|180|
 |PSU|Seasonic 1300W|510|
 |-----|-----|-----|
 |Monitor|27" 4K 60Hz|250|
+
+# NAS
+
+2 Bay NAS, either from Synology or Asustor with 4TB drives
+
+## Custom NAS Build
+
+[Youtube: EVO Tech](https://www.youtube.com/watch?v=a_2qeEpMQtE)
+
+# Promox Build
+## AMD
+## Intel
