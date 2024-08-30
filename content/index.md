@@ -5,6 +5,9 @@ tags: index
 
 [[Learning]]
 
+Go to the directory vault/note-pages/content
+Edit the index.md file
+
 ## Start the server
 ```bash
 npx quartz build --serve
