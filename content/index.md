@@ -3,7 +3,8 @@ title: Index for Personal Notes
 tags: index
 ---
 
-[[Learning]]
+
+## [[Learning]]
 
 Go to the directory vault/note-pages/content
 Edit the index.md file
@@ -18,6 +19,9 @@ npx quartz build --serve
 ```bash
 npx quartz sync --no-pull
 ```
+  
+## [[Docker]](./Docker/Docker.md)  
+
 
 ### TODO
 Customizing the "front page" to display foldered files
