@@ -6,7 +6,7 @@ tags: dev, homelab
 
 # Things to add to a docker service
 
-## Add k3s
+## Add protainer and k3s
 [k3s](https://k3s.io/)  
 To manage docker services
 ### [Youtube Channels](./Learning/linuxchannel.md)  
@@ -28,8 +28,10 @@ To manage docker services
 ### Extras but important
 
 [Drawio](https://www.drawio.com/)  
+[Excalidraw](https://github.com/excalidraw/excalidraw)  
 [Forjero](https://forgejo.org/)  
 [Gitlab](https://about.gitlab.com/install/)  
+
 
 ### Knowledge base
 [Wikidocs]  
