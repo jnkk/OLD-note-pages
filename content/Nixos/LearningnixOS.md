@@ -14,6 +14,7 @@ The command
 sudo nixos-rebuild switch
 ```
 will be defaulted in /etc/nixos
+Changes won't happend
 
 
 Enable ssh, git, curl in configuration.nix
@@ -35,3 +36,7 @@ What these do is "replacing" the channels command, which are the defaults.
 To the flakes "channels".
 
 The difference is channel default uses sudo, flakes does not.
+
+## With hardships, zsh is installed and made the default shell
+
+## Next step is emacs or neovim

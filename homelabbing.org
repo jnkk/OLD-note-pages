@@ -1,0 +1,7 @@
+#+title: Homelabbing
+
+* Hardware
+** DDR AMD 5700G
+| Name Component   | Price | URL Link |
+| AMD 5700G | 3000000 | x |
+|
