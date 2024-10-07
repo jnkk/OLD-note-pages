@@ -3,23 +3,38 @@ title: Beginning of NixOS Setups
 tags: homelab, linux, nix, nixos
 ---
 
-# First steps
+# First steps for Nix
+
+I recommend the nix package manager in other linux distributions first, my personal choice is [Debian](https://www.debian.org/), because it is stable.  
+
+With [nix](./FirstSteps.md) package manager, I can play around with "unstable" apps like neovim. The Debian based is not the current version. Because it needs to be stable.
+
+
+
+Then make the leap to nixOS.  
+You have to configure the ENTIRE operating system while not knowing how to do it.  
+Since nixOS have a different package manager from other linux distributions. It is better to understand Nix package manager and the Nix language first. 
+
+## First steps for nixOS
 
 The base of nixOS is in /etc/nixos.
 There are 2 files, configuration.nix and hardware-configuration.nix
 
-DO NOT MOVE THESE FILES.
+DO NOT MOVE THESE FILES.  
+
 The command
-```
+
+```bash
 sudo nixos-rebuild switch
 ```
+
 will be defaulted in /etc/nixos
 Changes won't happend
 
 
 Enable ssh, git, curl in configuration.nix
 
-```
+```nix
 services.openssh.enable = true;
 
 environment.systemPackages = with pkgs; [
@@ -28,7 +43,8 @@ environment.systemPackages = with pkgs; [
 ```
 
 Add this to configuration.nix
-```
+
+```nix
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 ```
 
