@@ -9,14 +9,6 @@ tags: index
 Go to the directory vault/note-pages/content
 Edit the index.md file
 
-## Before stating the server
-
-New home-manager, erases the nodejs module from bashrc.  
-So run this first.  
-
-```bash
-nix-shell -p yarn yarn2nix nodejs
-```
 
 ## Start the server
 
@@ -30,6 +22,12 @@ npx quartz build --serve
 npx quartz sync --no-pull
 ```
   
+Easy navigation to:
+
+## [[Nix first steps]](/Nix/FirstSteps.md)  
+
+Editing this file a lot  
+
 ## [[Docker]](./Docker/Docker.md)  
 
 ## [[Blogs]](/Blog/Blog001.md)
