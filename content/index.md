@@ -9,6 +9,15 @@ tags: index
 Go to the directory vault/note-pages/content
 Edit the index.md file
 
+## Before stating the server
+
+New home-manager, erases the nodejs module from bashrc.  
+So run this first.  
+
+```bash
+nix-shell -p yarn yarn2nix nodejs
+```
+
 ## Start the server
 
 ```bash
