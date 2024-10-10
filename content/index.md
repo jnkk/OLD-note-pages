@@ -22,16 +22,19 @@ npx quartz build --serve
 npx quartz sync --no-pull
 ```
   
-Easy navigation to:
+Editing this file a lot
 
-## [[Nix first steps]](/Nix/FirstSteps.md)  
+# [[After install]](./Notes/afterinstall.md)
 
-Editing this file a lot  
+Others
 
 ## [[Docker]](./Docker/Docker.md)  
 
 ## [[Blogs]](/Blog/Blog001.md)
 
+Easy navigation to:
+
+## [[Nix first steps]](/Nix/FirstSteps.md)  
 
 ### TODO
 

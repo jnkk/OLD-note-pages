@@ -1,4 +1,10 @@
-# this is for debian 12, if another reinstall is needed
+---
+title: Steps after installing Debian 12
+tags: index
+---
+
+
+# This is for Debian 12, if another reinstall is needed
 
 ## change sourcelist. make a backup of the original file and copy and paste in /etc/apt 
 
@@ -17,9 +23,10 @@ deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-
 
 ## post debian 12 install to download
 ```bash
-sudo apt install curl wget git micro btop build-essential cmake gcc brew vscodium nvidia-tesla-470-driver
-```
-> []NOTE
+sudo apt install curl wget git micro btop build-essential cmake gcc brew vscodium nvidia-tesla-470-driver npm nodejs
+```  
+
+> [!]NOTE
 > current setup is using a dell laptop that has a old nvidia  
 > use-> nvidia-tesla-470-driver  
 > nvidia-detect
@@ -45,7 +52,7 @@ ssh-keygen -t rsa
 
 
 ## other must to install not with apt
-go rust cloudflare-warp speedtest-cli fast-cli 
+go rust cloudflare-warp speedtest-cli fast-cli ollama
 
 ## apps using BREW  
 lazygit ruff
@@ -54,6 +61,14 @@ lazygit ruff
 [miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)  
 Make sure to download sh their file. use bash command to install those.
 last time I tried their failed because of the agreements.
+
+[Shell-gpt guide](https://github.com/TheR1D/shell_gpt/wiki/Ollama) is here
+
+Run this if [shell-gpt](https://github.com/TheR1D/shell_gpt) is installed globally
+```bash
+git diff | sgpt "Generate git commit message, for my changes"
+```
+takes over 10 seconds with current setup. OLD LAPTOP.
 
 ## best terminal by far is FISH
 have to learn it.
