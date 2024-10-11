@@ -32,15 +32,45 @@ sudo apt install curl wget git micro btop build-essential cmake gcc brew vscodiu
 > use-> nvidia-tesla-470-driver  
 > nvidia-detect
 
+## Install homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## Setup XDG BASE DIR
+
+```bash
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+```
+
+### Install [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja)
+
+> []NOTE:
+> This is after installing the xdg-ninja
+
+```bash
+export RUFF_CACHE_DIR="$XDG_CACHE_HOME/ruff"
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+```
+
 ## How to download and make use of personal notes
 
 1. set your git username and email
+
 ```bash
 git config --global user.name "<yourusername>"
 git config --global user.email "<youruseremail>"
 ```
 
 2. create ssh-key
+
 ```bash
 ssh-keygen -t rsa
 ```
@@ -49,16 +79,24 @@ ssh-keygen -t rsa
 > using SUDO goes to the root user.
 
 3. add ssh key to [github](https://github.com/settings/keys)  
+
 4. download the GIT version and not the https. so the git push command works.
 
 
 ## other must to install not with apt
+
 go rust cloudflare-warp speedtest-cli fast-cli ollama
 
 ## apps using BREW  
-lazygit ruff
+
+lazygit ruff npm nodejs
+
+## Install [NERDFONTS](https://github.com/ryanoasis/nerd-fonts)
+
+Jetbrains
 
 ## install miniconda for shell-gpt
+
 [miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)  
 Make sure to download sh their file. use bash command to install those.
 last time I tried their failed because of the agreements.
@@ -66,16 +104,20 @@ last time I tried their failed because of the agreements.
 [Shell-gpt guide](https://github.com/TheR1D/shell_gpt/wiki/Ollama) is here
 
 Run this if [shell-gpt](https://github.com/TheR1D/shell_gpt) is installed globally
+
 ```bash
 git diff | sgpt "Generate git commit message, for my changes"
 ```
+
 takes over 10 seconds with current setup. OLD LAPTOP.
 
-## best terminal by far is FISH
+## best terminal by far is [FISH](https://fishshell.com/)
 have to learn it.
 if fish is set up. type this:
-$ fish_config theme choose Tomorrow
 
+```fish
+fish_config theme choose Tomorrow
+```
 
 ## tutorial for installing QEMU/KVM
 [youtube](https://www.youtube.com/watch?v=GgAQw08zJzs)
