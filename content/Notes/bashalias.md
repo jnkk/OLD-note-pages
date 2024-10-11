@@ -1,3 +1,5 @@
+# Bash Aliases  
+
 alias lsa="ls -al"  
 alias mc="micro"  
 alias bashrc="micro .bashrc"  
@@ -24,5 +26,4 @@ alias mkdp="mkdir -p"
 alias panas="curl wttr.in"  
 alias code="codium"  
 alias mati="conda deactivate"  
-
-# personalnotes = "cd vault/note-pages/content && code .";
+alias personalnotes="cd vault/note-pages/content && code ."

@@ -11,6 +11,7 @@ tags: index
 > [!]IMPORTANT
 > Make sure to backup first and then edit the files
 
+```txt
 deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware  
 deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware  
 
@@ -19,7 +20,7 @@ deb-src http://deb.debian.org/debian-security bookworm-security main contrib non
 
 deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware  
 deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware  
-
+```
 
 ## post debian 12 install to download
 ```bash
