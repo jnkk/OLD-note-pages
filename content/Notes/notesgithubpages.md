@@ -4,6 +4,10 @@ title: How to use Quartz from my personal github page
 
 # Steps to take to reproduce the website  
 
+DO NOT USE THE GITHUB DESKTOP FOR CLONING!!  
+Use the ssh mode, by using github desktop. It downloads the https, you can't push directly.
+So the github pages recieves an error.
+
 ## Preface  
 
 Prepare an IDE, VSCode is my default right now.  
