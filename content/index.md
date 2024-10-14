@@ -1,29 +1,19 @@
 ---
-title: Index for Personal Notes
+title: Index for learning in my Personal Notes on Github pages
 tags: index
 ---
 
 
-## [[Learning]]
+# Learning
 
-Go to the directory vault/note-pages/content
-Edit the index.md file
-  
-Editing this file a lot
+Go to the directory note-pages/content
+This is the `index.md` file. In the root directory.
 
-# [[After install]](./Notes/afterinstallDEBIAN.md)
+## [[Latest]](Notes/notesgithubpages.md)  
 
-Others
+## [[After install]](./Notes/afterinstallDEBIAN.md)
 
-## [[Docker]](./Docker/Docker.md)  
-
-## [[Blogs]](/Blog/Blog001.md)
-
-Easy navigation to:
-
-## [[Nix first steps]](/Nix/FirstSteps.md)  
-
-### TODO
+### TODOs  
 
 Customizing the "front page" to display foldered files
 
@@ -33,16 +23,15 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started
 
 Or see the note-pages directory
 
+### [Cloning notes-personal or "My Digital Garden" with steps:](Notes/notesgithubpages.md)
 
-# This does not work if cloning from github
-
-## Start the server
+### Start the server
 
 ```bash
 npx quartz build --serve
 ```
 
-## Resync with github pages
+### Resync with github pages
 
 ```bash
 npx quartz sync --no-pull

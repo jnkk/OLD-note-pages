@@ -23,6 +23,7 @@ deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-
 ```
 
 ## post debian 12 install to download
+
 ```bash
 sudo apt install curl wget git micro btop build-essential cmake gcc brew vscodium nvidia-tesla-470-driver npm nodejs
 ```  
