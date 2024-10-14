@@ -40,3 +40,8 @@ Side note: I also made an account to gitlab. Maybe later, still learning on how 
 There was 5 pull requests.
 Deleted `node_module`, `package-lock.json`, check for errors. Open chatgpt for a rundown. Before it was missing a module, and then running `npm install` after deleting the above files, fixes things.
 
+Got an error like this. This is after chatting with chatgpt.
+
+```bash
+npm install --save-dev webpack webpack-cli
+```
