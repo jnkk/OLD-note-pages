@@ -1,3 +1,3 @@
 # Personal Notes
 
-Using [Quartz](https://github.com/jackyzha0/quartz)
+This is the site: https://jnkk.github.io/note-pages/
