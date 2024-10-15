@@ -2,11 +2,17 @@
 title: How to use Quartz from my personal github page
 ---
 
-# Steps to take to reproduce the website  
+# **Steps to take to reproduce the website**  
 
-DO NOT USE THE GITHUB DESKTOP FOR CLONING!!  
-Use the ssh mode, by using github desktop. It downloads the https, you can't push directly.
-So the github pages recieves an error.
+> [!CAUTION]
+> **DO NOT USE THE BUILT-IN CLONE TOOLS GITHUB DESKTOP FOR CLONING!!**  
+> Use the ssh mode or the "git" mode. By using github desktop, it downloads the https, you can't push directly with the quartz command.  
+> The Github Pages DOES NOT LOAD.  
+
+> [!NOTE]
+> TODO: Copy the content folder and try again, since it is saved in the repo.  
+>  
+> TODO: Maybe learn straight to Jekyll ???
 
 ## Preface  
 
@@ -23,7 +29,7 @@ Learning html/css/ruby how to use and customize Jekyll might be the end goal.
 
 Right now, taking notes and learning.
 
-`nodejs` and `npm` packages are needed
+`nodejs` and `npm` packages are needed.
 
 ## Cloning [personal github](https://github.com/jnkk/note-pages)
 
