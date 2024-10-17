@@ -1,3 +1,8 @@
 # OSes that I cannot try right now.
 
-Fedora, mainly not enough compute power
+## Not enough computing power  
+
+1. Fedora
+2. NixOS
+
+

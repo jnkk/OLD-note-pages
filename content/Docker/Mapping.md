@@ -4,4 +4,6 @@ tags: dev, homelab, mapping
 ---
 
 
-# This is mapping diagram
+# This is mapping diagram(s)
+
+## Use `mermaid` in Markdown
